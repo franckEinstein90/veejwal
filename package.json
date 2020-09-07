@@ -1,0 +1,43 @@
+{
+  "name": "vizual",
+  "version": "1.0.0",
+  "description": "add and connect images onto a grid, and watch them lay themselves out. Watch the demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "_moduleAliases": {
+    "@appEngine": "src/server/appEngine",
+    "@src": "src",
+    "@common": "src/common",
+    "@routes": "src/routes",
+    "@events": "src/events",
+    "@utils": "src/utils",
+    "@services": "src/services",
+    "@server": "src/server",
+    "@viewSystem": "src/server/viewSystem",
+    "@errors": "src/errors.js",
+    "@user": "src/server/users/user"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckEinstein90/vizual.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franckEinstein90/vizual/issues"
+  },
+  "homepage": "https://github.com/franckEinstein90/vizual#readme",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "cookie-parser": "^1.4.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "express-handlebars": "^5.1.0",
+    "module-alias": "^2.2.2",
+    "pidusage": "^2.0.21",
+    "uuid": "^8.3.0"
+  }
+}
